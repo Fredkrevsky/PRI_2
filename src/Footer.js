@@ -13,28 +13,28 @@ function Footer(){
           <li>
             <h6>{t("Vanya")}</h6>
             <a href="https://github.com/VanekGG228">
-              <img src={require(`./data/git_img/vi.png`)} alt=""/>
+              <img src={require(`./data/git_img/vanek.png`)} alt=""/>
             </a>
             <a href="https://github.com/VanekGG228">VanekGG228</a>
           </li>       
           <li>
             <h6>{t("Fedya")}</h6>
             <a href="https://github.com/Fredkrevsky">
-              <img src={require(`./data/git_img/ksu.png`)} alt=""/>
+              <img src={require(`./data/git_img/fedor.png`)} alt=""/>
             </a>
             <a href="https://github.com/Fredkrevsky">Ferran Torres</a>
           </li>
           <li>
             <h6>{t("Maxim")}</h6>
             <a href='https://github.com/asvorded'>
-              <img src={require(`./data/git_img/alex.png`)} alt=""/>
+              <img src={require(`./data/git_img/maxim.png`)} alt=""/>
             </a>
             <a href='https://github.com/asvorded'>Asvorded</a>
           </li> 
           <li>
             <h6>{t("Vlad")}</h6>
             <a href='https://github.com/vlados1kin'>
-              <img src={require(`./data/git_img/alex.png`)} alt=""/>
+              <img src={require(`./data/git_img/vlad.png`)} alt=""/>
             </a>
             <a href='https://github.com/vlados1kin'>Vlados1kin</a>
           </li> 
