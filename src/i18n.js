@@ -32,7 +32,7 @@ i18n
                   mus_of_day: "Figure of the day",
                   l_more: "Learn more",
                   back_to_list: "Back to the list",
-                  home_text:"The modern world cannot be imagined without the most widespread form of art today - photography. We offer you to get acquainted with Belarusian photography from its origins to the present.",
+                  home_text:"Without music, life would be a mistake.",
                   devs: "Developers:",
                   Vanya: "Vanya Vasilenko",
                   Fedya: "Fedor Krivitskiy",
@@ -63,7 +63,7 @@ i18n
                     mus_of_day: "Деятель дня",
                     l_more: "Узнать больше",
                     back_to_list:"Вернуться к списку",
-                    home_text: "Современный мир невозможно представить без самого распространённого вида искусств – фотографии. Предлагаем познакомиться с белорусской фотографией от истоков до современности.",
+                    home_text: "Без музыки жизнь была бы заблуждением.",
                     devs: "Разработчики",  
                     Vanya: "Ваня Василенко",
                     Fedya: "Федор Кривицкий",
@@ -77,7 +77,7 @@ i18n
                     name3: "Кизяка",
                     name4: "Кровосток",
                     name5: "Солодуха",
-                    name6: "Кунтейнир",
+                    name6: "Контейнер",
                    
               }
             }

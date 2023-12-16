@@ -8,25 +8,25 @@ const MusiciansAPIen = {
     { number: 6, name: "Kunteynir", fileName: "Kunteynir"}
   ],
   Data: [
-    {number: 1, birthYear: "1990",deathYear: "н.в.",birthDate: "09.05.1990",deathDate: "н.в.",
+    {number: 1, birthYear: "1990",deathYear: "н.в.",birthDate: "09.05.1990",deathDate: "present",
     shortInfo:"Vyacheslav Valeryevich Mashnov (born May 9, 1990, Khabarovsk, USSR), better known by the pseudonym Slava KPSS, is a Russian rap artist, poet, participant in rap battles, as well as an artist and streamer.",
     events: [
-      {year:"2017",description:"Slava KPSS «Tea for Two» with\nAux, Slava KPSS «Sun of the Dead»"},
+      {year:"2017",description:"Slava KPSS «Tea for Two» with Aux\nSlava KPSS «Sun of the Dead»"},
       {year:"2018",description:"Slava KPSS 'Adult Dance Music',\nSlava KPSS 'OVERHYPE' with Khan Zamai,\nSlava KPSS 'OVERHYPE 2' with Khan Zamai,\nSlava KPSS 'OVERHYPE 3' with Khan Zamai"},
       { year: "2019", description: "Slava KPSS 'Buter Brodsky'" },
       { year: "2020", description: "Slava KPSS 'Monster that Ruined the World'" },
       { year: "2021", description: "Slava KPSS 'Lil Buter'" },
       { year: "2022", description: "Slava KPSS 'Buter Brodsky 2'" },
-      { year: "2023", description: "Slava KPSS 'GORGOROD 2',\na sequel to Oxxxymiron's album 'GORGOROD'" }],
+      { year: "2023", description: "Slava KPSS 'GORGOROD 2',\n(a sequel to Oxxxymiron's album 'GORGOROD')" }],
     quote: "Our fixies died\nBefore they used to move something\nInside the souls, now ink flows\nAnd who will plug the hole in the meaty house?\nWalkers rose, time is standing\nIn a quiet backwater, demons draw for me\nYou pour lead on bare nerves",
     quoteAuthor: "Slava KPSS in the song 'Guaranteed Guys'",  
     albums : ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"], 
-    Namealbums : ["Camp Dust", "ANTIHYPETRAIN", "Lil Buter", "Favorite Songs of Real People", "GORGOROD 2", "Adult Dance Music"],
+    Namealbums : ["Camp Dust", "ANTIHYPETRAIN", "Lil Buter", "Favorite Songs of Real People", "Gorgorod 2", "Adult Dance Music"],
     videoLink: "https://www.youtube.com/embed/LYoNRVZG6W0?si=FuuBclg-L5ORSKp0",
     maplink: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1999.4094895361554!2d30.3618821!3d59.925347099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTnCsDU1JzMxLjMiTiAzMMKwMjEnNDIuOCJF!5e0!3m2!1sru!2sby!4v1702552085999!5m2!1sru!2sby",
   },
 
-    {number: 2, birthYear: "2002",deathYear: "н.в.",birthDate: "25.03.2002",deathDate: "н.в.",
+    {number: 2, birthYear: "2002",deathYear: "н.в.",birthDate: "25.03.2002",deathDate: "present",
     shortInfo:"(born March 25, 2002, Berezniki, Perm Krai), better known as Scally Milano, is a Russian rapper. He attracted public attention with his provocative style and music addressing controversial topics. Scally Milano's music is often described as a mix of absurdity and provocation.",
     events: [
       { year: "May 18, 2021", description: "Mini-album 'Onion'" },
@@ -36,17 +36,17 @@ const MusiciansAPIen = {
     quote: "Bro says, be popular and do TikToks\nActually, TikToks\nOn my phone tracker, I know when the cops are nearby\nSome guy says, I'm his brother - dude, who are you?\nGive me a counter, can't count the banknotes",
     quoteAuthor: "Scally Milano",
     albums : ["1.jpg","2.jpg","3.jpg","4.jpg"], 
-    Namealbums : ["Mini-album Onion", "Album Money Counter Music", "Album Propaganda of Money", "Album Really Rich"], 
+    Namealbums : ["Onion", "Money Counter Music", "Propaganda of Money", "Really Rich"], 
     videoLink: 'https://www.youtube.com/embed/8zRa_CsrmDY?si=KVQlIaOAEK6encMI',
     maplink: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2245.3722005272784!2d37.6161743!3d55.7520363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTXCsDQ1JzA3LjMiTiAzN8KwMzYnNTguMiJF!5e0!3m2!1sru!2sby!4v1702551831923!5m2!1sru!2sby" },
 
-    {number: 3, birthYear: "1989",deathYear: "н.в.",birthDate: "21.05.1989",deathDate: "н.в.",
+    {number: 3, birthYear: "1989",deathYear: "н.в.",birthDate: "21.05.1989",deathDate: "present",
     shortInfo:"Oleg Viktorovich Nechiporenko (born May 21, 1989, Leningrad, RSFSR, USSR), better known by the stage name Kizyaka (stylized in lowercase), is a Russian hip-hop artist. He is a member and founder of the creative association 'Haunted Family.' Kizyaka is an uncompromising new wave rap artist residing in Barcelona. He raps in the 'trap' subgenre, dedicating his compositions to everything that is usually shielded from youth. He is the first and only Russian rapper listed in Interpol.",
     events: [
       { year: "October 12, 2016", description: "Album 'Mas Fuerte'" },
       { year: "August 15, 2019", description: "Album 'Karmageddon'" },
       { year: "October 22, 2021", description: "Album 'BANDANA'" },
-      { year: "July 28, 2023", description: "Album 'Gremlin'" }],
+      { year: "July 28, 2023", description: "Mini-album 'Gremlin'" }],
     quote: "Dude, why do you need a chain? Buy yourself a brain.",
     quoteAuthor: "Kizyaka",
     albums : ["1.jpg","2.jpg","3.jpg","4.jpg"],
@@ -55,7 +55,7 @@ const MusiciansAPIen = {
     maplink: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2993.4310511417484!2d2.1683972759183243!3d41.3864443713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIzJzExLjIiTiAywrAxMCcxNS41IkU!5e0!3m2!1sru!2sby!4v1702552217509!5m2!1sru!2sby",
   },
 
-{number: 4, birthYear: "1961",deathYear: "2022",birthDate: "29.09.1961",deathDate: "09.08.2022",
+{number: 4, birthYear: "1961",deathYear: "2022",birthDate: "29.09.1971",deathDate: "present",
 shortInfo:"Krovostok is a Russian hip-hop group from Moscow, founded in 2003 by artists Anton Chernyak and Dmitry Fain. The group is known primarily for satirical songs from the perspective of a lyrical character with exaggerated, grotesque criminal themes, delivered in a monotone recitative. The lyrics are written by Dmitry Fain and Anton Chernyak, and the music is composed by Phantom, DJ Polutrup.",
     events: [
       { year: "2004", description: "Album 'River of Blood'" },
@@ -68,12 +68,12 @@ shortInfo:"Krovostok is a Russian hip-hop group from Moscow, founded in 2003 by 
     quote: "Moral restrictions are always needed for a person; they are like fire extinguishers, and this is not nonsense.",
     quoteAuthor: "Anton Chernyak of the group 'Krovostok'",      
     albums : ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg"],
-    Namealbums :["River of Blood", "Skvoznoe", "Gantelya", "Studen", "Lombard", "ChB", "Nauka"],
+    Namealbums :["River of Blood", "Through", "Gantelya", "Studen", "Lombard", "ChB", "Science"],
     videoLink: "https://www.youtube.com/embed/wNOUlTNHPMM?si=1CfAPk9EZM6SrgSv" ,
     maplink: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2247.443885415185!2d37.7275326!3d55.716037699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTXCsDQyJzU3LjciTiAzN8KwNDMnMzkuMSJF!5e0!3m2!1sru!2sby!4v1702552322810!5m2!1sru!2sby"
   },
 
-{number: 5, birthYear: "1959",deathYear: "н.в.",birthDate: "18.01.1959",deathDate: "н.в.",
+{number: 5, birthYear: "1959",deathYear: "н.в.",birthDate: "18.01.1959",deathDate: "present",
 shortInfo:"Alexander Antonovich Solodukha (born January 18, 1959, Kamenka, Sergiev Posad District, Moscow Region, RSFSR, USSR) is a Soviet and Belarusian singer. He is an Honored Artist of the Republic of Belarus (2018). Solodukha worked as a doctor and participated in amateur artistic activities.",
     events: [
       { year: "1987", description: "Since 1987 — soloist of the State Concert\nOrchestra of Belarus." },
@@ -92,7 +92,7 @@ shortInfo:"Alexander Antonovich Solodukha (born January 18, 1959, Kamenka, Sergi
     videoLink: "https://www.youtube.com/embed/1I4VsgMb-GI?si=XIBJxm94thyr3eGP" ,
     maplink: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2351.046063801322!2d27.560312899999996!3d53.8953852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTPCsDUzJzQzLjQiTiAyN8KwMzMnMzcuMSJF!5e0!3m2!1sru!2sby!4v1702552481446!5m2!1sru!2sby",
   },
-  {number: 6, birthYear: "202020",deathYear: "н.в.",birthDate: "06.10.202020",deathDate: "н.в.",
+  {number: 6, birthYear: "1984",deathYear: "н.в.",birthDate: "01.07.1984",deathDate: "present",
 shortInfo:"Kunteynir (Russian: Контейнер) is a Russian hip-hop group from Moscow, formed in 2001. From 2009 to 2013, the group suspended its activities due to the arrest and subsequent imprisonment of the leader, Pasha Tekhnik. In 2016, the collective disbanded. In 2020, MC Kalmar and Pasha Tekhnik reunited the group and recorded the album 'Road to the Clouds.' Critics have defined the group's work as underground rap, alternative hip-hop, and avant-garde rap. ",
     events: [
       { year: "2004", description: "Album 'Edward Scissorhands Paper'" },
