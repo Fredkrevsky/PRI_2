@@ -13,7 +13,7 @@ function getRandomInt(min, max) {
   function Home(){
     const {t,i18n } = useTranslation();
     let dayMus = getRandomInt(1,6);
-    let tmp=t("id");
+    let tmp=t("lang");
     let MusAPI;
     if (tmp==="ru"){
       MusAPI=MusiciansAPI;

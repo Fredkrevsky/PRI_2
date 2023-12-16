@@ -23,7 +23,7 @@ i18n
         resources: {
             en: {
               translation: {  
-                  id:"en",                   
+                  lang:"en",                   
                   home_page: "Home",
                   list_of_ph: 'Musicians',
                   russian_lang: "Russian",
@@ -54,7 +54,7 @@ i18n
             
             ru: {
               translation: {     
-                    id:"ru",           
+                    lang:"ru",           
                     home_page: "Главная",
                     list_of_ph: 'Музыканты',
                     russian_lang: "Русский",

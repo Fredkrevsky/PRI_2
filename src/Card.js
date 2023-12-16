@@ -4,17 +4,24 @@ import Carousel from 'react-bootstrap/Carousel';
 import {useTranslation} from "react-i18next";
 
 import MusiciansAPI from './MusiciansAPI';
+import MusiciansAPIen from './MusiciansAPIen';
 
 import {useParams, Link} from "react-router-dom";
 
 function Card(){
     const params = useParams();
     const id = params.number;
-
-    const musisian = MusiciansAPI.musisians.find(p=>p.number == id);
-    const MusData = MusiciansAPI.Data.find(p=>p.number == id);
-
     const {t,i18n } = useTranslation();
+    let tmp=t("lang");
+    console.log(tmp);
+    let MusAPI;
+    if (tmp==="ru"){
+      MusAPI=MusiciansAPI;
+      }else{
+      MusAPI=MusiciansAPIen;
+    }
+    const musisian = MusAPI.musisians.find(p=>p.number == id);
+    const MusData = MusAPI.Data.find(p=>p.number == id);
 
     if(musisian===undefined){
     return <div>Sorry, but the musisian was not found</div>
