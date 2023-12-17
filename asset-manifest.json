@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Fredkrevsky/RPI_2/static/css/main.ee51792f.css",
+    "main.js": "/Fredkrevsky/RPI_2/static/js/main.37076a20.js",
+    "static/media/backQuote.jpg": "/Fredkrevsky/RPI_2/static/media/backQuote.63b71152bc0f407a6b31.jpg",
+    "static/media/lato-regular.ttf": "/Fredkrevsky/RPI_2/static/media/lato-regular.80c07943565d91b976e1.ttf",
+    "static/media/b.jpg": "/Fredkrevsky/RPI_2/static/media/b.76993e6906f9c4b5a89c.jpg",
+    "static/media/Исполнители.docx": "/Fredkrevsky/RPI_2/static/media/Исполнители.1d80c203d383c8b02e82.docx",
+    "static/media/2.jpg": "/Fredkrevsky/RPI_2/static/media/2.a4f4461a4bdbc9664abb.jpg",
+    "static/media/5.jpg": "/Fredkrevsky/RPI_2/static/media/5.27a6958e5ee52b14298d.jpg",
+    "static/media/1.jpg": "/Fredkrevsky/RPI_2/static/media/1.7cb11ecde68a8d272be7.jpg",
+    "static/media/4.jpg": "/Fredkrevsky/RPI_2/static/media/4.e922a8118cd166028da1.jpg",
+    "static/media/3.jpg": "/Fredkrevsky/RPI_2/static/media/3.c0a003c38fdd1cbe6afd.jpg",
+    "static/media/6.jpg": "/Fredkrevsky/RPI_2/static/media/6.25095da1464741f856f0.jpg",
+    "static/media/bck.jpg": "/Fredkrevsky/RPI_2/static/media/bck.26ae4dee9e805e124a20.jpg",
+    "static/media/u.jpg": "/Fredkrevsky/RPI_2/static/media/u.e2a137ccaf65ea5fd8aa.jpg",
+    "static/media/k.jpg": "/Fredkrevsky/RPI_2/static/media/k.06ca10389e1b247eb463.jpg",
+    "static/media/bg.jpg": "/Fredkrevsky/RPI_2/static/media/bg.82358e3ba70287916468.jpg",
+    "static/media/home_bg1.jpg": "/Fredkrevsky/RPI_2/static/media/home_bg1.c64fa3fcdee33fd2ed85.jpg",
+    "static/media/7.jpg": "/Fredkrevsky/RPI_2/static/media/7.c2102e682b4f4ecb52ff.jpg",
+    "static/media/portrait.jpg": "/Fredkrevsky/RPI_2/static/media/portrait.06e2cad75ea07343889c.jpg",
+    "static/media/p.jpg": "/Fredkrevsky/RPI_2/static/media/p.ccf597f9094f19f04474.jpg",
+    "static/media/back.jpg": "/Fredkrevsky/RPI_2/static/media/back.0862a62e8250c367ab11.jpg",
+    "static/media/header-grad.png": "/Fredkrevsky/RPI_2/static/media/header-grad.47331f8bee80d9720a82.png",
+    "static/media/maxim.png": "/Fredkrevsky/RPI_2/static/media/maxim.548d58cede9386d6d3f4.png",
+    "static/media/fedor.png": "/Fredkrevsky/RPI_2/static/media/fedor.ae161bd5c46e10cf5424.png",
+    "static/media/main-logo.png": "/Fredkrevsky/RPI_2/static/media/main-logo.ec87b4845df50a998efa.png",
+    "index.html": "/Fredkrevsky/RPI_2/index.html",
+    "static/media/getFetch.cjs": "/Fredkrevsky/RPI_2/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.ee51792f.css.map": "/Fredkrevsky/RPI_2/static/css/main.ee51792f.css.map",
+    "main.37076a20.js.map": "/Fredkrevsky/RPI_2/static/js/main.37076a20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee51792f.css",
+    "static/js/main.37076a20.js"
+  ]
+}
