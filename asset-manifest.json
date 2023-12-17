@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/musicians-site-concept/static/css/main.3af6b39b.css",
-    "main.js": "/musicians-site-concept/static/js/main.c4c6838b.js",
+    "main.js": "/musicians-site-concept/static/js/main.fc669f2e.js",
     "static/media/backQuote.jpg": "/musicians-site-concept/static/media/backQuote.63b71152bc0f407a6b31.jpg",
     "static/media/lato-regular.ttf": "/musicians-site-concept/static/media/lato-regular.80c07943565d91b976e1.ttf",
     "static/media/b.jpg": "/musicians-site-concept/static/media/b.76993e6906f9c4b5a89c.jpg",
@@ -28,10 +28,10 @@
     "index.html": "/musicians-site-concept/index.html",
     "static/media/getFetch.cjs": "/musicians-site-concept/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.3af6b39b.css.map": "/musicians-site-concept/static/css/main.3af6b39b.css.map",
-    "main.c4c6838b.js.map": "/musicians-site-concept/static/js/main.c4c6838b.js.map"
+    "main.fc669f2e.js.map": "/musicians-site-concept/static/js/main.fc669f2e.js.map"
   },
   "entrypoints": [
     "static/css/main.3af6b39b.css",
-    "static/js/main.c4c6838b.js"
+    "static/js/main.fc669f2e.js"
   ]
 }
