@@ -25,7 +25,6 @@ i18n
               translation: {  
                   lang:"en",                   
                   home_page: "Home",
-                  list_of_ph: 'Musicians',
                   russian_lang: "Russian",
                   english_lang: "English",
                   mus: "Musisians",
@@ -33,15 +32,14 @@ i18n
                   l_more: "Learn more",
                   back_to_list: "Back to the list",
                   home_text:"Without music, life would be a mistake.",
-                  devs: "Developers:",
+                  devs: "Developers",
                   Vanya: "Vanya Vasilenko",
                   Fedya: "Fedor Krivitskiy",
                   Maxim:"Maxim Dadush",
                   Vlad:"Vlad Lashkin",
                   searchCaption: "Search for a musisian", 
-                  list_ph: "List of musisians",
+                  list_mus: "List of musisians",
                   albums:"Albums",
-                    
                   name1: "Slava KPSS",
                   name2: "Scally Milano",
                   name3: "Kizyaka",
@@ -56,7 +54,6 @@ i18n
               translation: {     
                     lang:"ru",           
                     home_page: "Главная",
-                    list_of_ph: 'Музыканты',
                     russian_lang: "Русский",
                     english_lang: "Английский",
                     mus: "Музыканты",
@@ -70,7 +67,7 @@ i18n
                     Maxim:"Максим Дадуш",
                     Vlad:"Влад Лашкин", 
                     searchCaption: "Поиск музыканта",  
-                    list_ph: "Список музыкантов",
+                    list_mus: "Список музыкантов",
                     albums: "Альбомы",
                     name1: "Славка КПСС",
                     name2: "Скали Милано",
@@ -78,7 +75,6 @@ i18n
                     name4: "Кровосток",
                     name5: "Солодуха",
                     name6: "Контейнер",
-                   
               }
             }
         },

@@ -2,8 +2,6 @@
     background-image: url(./data/imgs/back.jpg);
     background-position: center;
     background-size: cover;
-    height: 600px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     
@@ -12,70 +10,47 @@
 
 .formSearch{
     display: flex;
+    padding: 0px 20px;
     flex-direction: column;
-    
-    
+    align-items: center;
 }
 
-.searchInp{
+.searchInp {
     width: 220px;
-    margin: auto;
-       
 }
 
 .formSearch h2{
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px;
 }
-.list_ph{    
+
+.list_mus{    
   display: flex;
   flex-direction: column;
 }
 
-.list_ph ul{
+.list_mus ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 30px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.list_mus ul li {
+    min-width: 30%;
+    text-align: center;
+    padding: 20px;
 }
 
 
 @media only screen and (max-width: 1280px) {
-    .formSearch h2{
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        
-    }
     .list_ph ul {
-        flex-direction: column;        
-        margin: auto;
-        padding-inline-start: 0px;        
-        
-    }
-    .list_ph ul li{
-        margin-top: 10px;
-        width: 100%;
+        flex-direction: column;         
     }
     .list_ph ul li img{
         height: 100px;
-        margin: auto;
     }
-    .list{
-        height: 860px;
-    }
-
-    .searchInp{
-        width: 220px;
-        margin: auto;     
-         
-    }
-
-    .list_ph ul li .but{
-        width: 100%;      
-        
-    }
-
-    
-
 }

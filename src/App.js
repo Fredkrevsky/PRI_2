@@ -13,7 +13,6 @@ function App() {
         <Footer />
       </div>
     </BrowserRouter>
-//pray for vika
   );
 }
 

@@ -12,19 +12,19 @@ function Card(){
     const params = useParams();
     const id = params.number;
     const {t,i18n } = useTranslation();
-    let tmp=t("lang");
+    let tmp = t("lang");
     console.log(tmp);
     let MusAPI;
-    if (tmp==="ru"){
-      MusAPI=MusiciansAPI;
-      }else{
-      MusAPI=MusiciansAPIen;
+    if (tmp === "ru"){
+      MusAPI = MusiciansAPI;
+      } else {
+      MusAPI = MusiciansAPIen;
     }
-    const musisian = MusAPI.musisians.find(p=>p.number == id);
-    const MusData = MusAPI.Data.find(p=>p.number == id);
+    const musisian = MusAPI.musisians.find(p => p.number == id);
+    const MusData = MusAPI.Data.find(p => p.number == id);
 
-    if(musisian===undefined){
-    return <div>Sorry, but the musisian was not found</div>
+    if(musisian === undefined) {
+      return <div>Sorry, but the musisian was not found</div>
     }
     return (
     <div>
@@ -34,7 +34,7 @@ function Card(){
           <h1>{musisian.name}</h1>
           <h2>{MusData.birthDate} - {MusData.deathDate}</h2>
           <div className="shortInfoWrap">
-            <p >{MusData.shortInfo}</p>
+            <p>{MusData.shortInfo}</p>
           </div>  
         </div>
       </div>
@@ -51,10 +51,8 @@ function Card(){
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
-            dateText= {p.year} >
-            <pre>
-              {p.description}
-            </pre>
+            dateText={p.year} >
+            <p>{p.description}</p>
             
           </TimelineItem>
         ))
@@ -64,41 +62,33 @@ function Card(){
 
     <div className="cardQuote">
       <div>
-        <pre> „{MusData.quote}“ </pre>
-        <h6> -{MusData.quoteAuthor}</h6>
+        <p> „{MusData.quote}“ </p>
+        <h6>- {MusData.quoteAuthor}</h6>
       </div>
     </div>
 
-
-
     <>
       <h2 className="title2">{t("albums")}</h2>
-      <Carousel  variant="dark" interval={1000}>
+      <Carousel interval={2000}>
       {
         MusData.albums.map(p => (
           <Carousel.Item className="carousel-image">
-    
-             <div className="Inner"><p>{MusData.Namealbums[parseInt(p[0], 10)-1]}</p> </div>
-            <img
-              src={require(`./data/${musisian.fileName}/${p}`)}
-              alt=""
-            /> 
-            
+            <div className="Inner"><p>{MusData.Namealbums[parseInt(p[0], 10)-1]}</p> </div>
+            <img src={require(`./data/${musisian.fileName}/${p}`)} alt="" /> 
           </Carousel.Item>
         ))
       }    
       </Carousel>
     </>
     <div className="dopInfo">
-          <div className="video-wrapper">
-              <iframe className="person-video" src={MusData.videoLink} frameborder="0"
-                  
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen>
-              </iframe>
-          </div>
+      <div className="video-wrapper">
+          <iframe className="person-video" src={MusData.videoLink} frameborder="0"
+              
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen>
+          </iframe>
+      </div>
       
-
       <iframe src={MusData.maplink} className="map_info"
            allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">
       </iframe>

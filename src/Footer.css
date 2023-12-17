@@ -1,11 +1,8 @@
 footer{
-    width: 100%;
-    height: calc(140px + (240 - 140)*((100vw - 320px)/(1600-320)));
     background-color:rgb(35, 35, 35);
     display: flex;    
     align-content: center;
-    
-    
+    padding: 10px 0 20px;
 }
 
 nav{
@@ -16,40 +13,31 @@ nav{
     
 }
 
-footer li img{    
-    width: calc(30px + (90 - 30)*((100vw - 320px)/(1600-320)));
-    height: calc(30px + (90 - 30)*((100vw - 320px)/(1600-320)));
-}
-
 nav h2{
     color: lightblue;
-    font-size: calc(15px + (30 - 15)*((100vw - 320px)/(1600-320)));
+    font-size: 30px;
 }
-ul{
+
+.devs-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    flex-wrap: wrap;
+    justify-content: space-around; 
     list-style: none;
-  }
-li{
-    margin: auto; 
+    margin: 0;
+    padding: 0;
+}
+
+.devs-list li {
     display: flex;
     justify-content: center;
+    flex-basis: 150px;
     flex-direction:column;
     text-align: center;
 }
 
-li h6{    
-    font-size: calc(10px + (20 - 10)*((100vw - 320px)/(1600-320)));
-}
- li h6,li a,li img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color: lightblue;
-}
- li a{
+li h6, li a, li img{
+    display: inline-block;
     text-decoration: none;
     color: lightblue;
-    font-size: calc(10px + (20 - 10)*((100vw - 320px)/(1600-320)));
 }
